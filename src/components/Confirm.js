@@ -32,7 +32,8 @@ export class FormUserDetails extends Component {
 						<ListItem primaryText="City" secondaryText={city} />
 					</List>
 					<br />
-					Do you want to Continue? <br />
+					Do you want to Continue?
+					<br />
 					<RaisedButton label="Back" primary={false} style={styles.button} onClick={this.back} />
 					<RaisedButton
 						label="Confirm & Continue"
